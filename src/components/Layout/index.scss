@@ -53,7 +53,6 @@
       left: -10px;
 
       &:before {
-        content: '<h1>';
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
         font-size: 18px;
@@ -65,7 +64,6 @@
       }
 
       &:after {
-        content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
         font-size: 18px;
@@ -156,6 +154,14 @@
 
   .stage-cube-cont {
     position: initial;
+    width: 100%;
+    height: 0%;
+    overflow: visible;
+  }
+  .projects-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
     width: 100%;
     height: 0%;
     overflow: visible;
