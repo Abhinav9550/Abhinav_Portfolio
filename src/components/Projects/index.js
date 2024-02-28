@@ -21,28 +21,30 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: 'Sunwing',
+      description: `Provides information about various destinations so that people can choose their destinations wisely.
+         They also help users in booking tickets and finding the best itinerary for your trip`,
+      imgUrl: projImg3,
+    },
+    {
+      title: 'Coopervision',
+      description: `CooperVision is one of the world's leading contact lens companies, serving eye care professionals and lens wearers in over 130 countries.`,
+      imgUrl: projImg5,
+    },
+    {
       title: 'Timerack',
       description: 'Time & Attendance, Payroll Intefrations and HR Services',
       imgUrl: projImg1,
     },
     {
       title: 'TravelXp',
-      description: 'Design & Development',
+      description: `Provides information about various destinations so that people can choose their destinations wisely.
+         They also help users in booking tickets and finding the best itinerary for your trip`,
       imgUrl: projImg2,
     },
     {
-      title: 'Sunwing',
-      description: 'Design & Development',
-      imgUrl: projImg3,
-    },
-    {
-      title: 'Coopervision',
-      description: 'Design & Development',
-      imgUrl: projImg5,
-    },
-    {
       title: 'Tranquilo',
-      description: 'Design & Development',
+      description: 'Android and IOS application Design & Development',
       imgUrl: projImg4,
     },
   ]

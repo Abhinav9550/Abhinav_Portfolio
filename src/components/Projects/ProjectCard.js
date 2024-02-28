@@ -5,7 +5,13 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <h2>{title}</h2>
         <p
           style={{
+            fontSize: '15px',
+            letterSpacing: '2px',
+            fontFamily: 'sans-serif',
             marginLeft: '4%',
+            lineHeight: '20px',
+            marginRight: '10%',
+            paddingBottom: '5px',
           }}
         >
           {description}

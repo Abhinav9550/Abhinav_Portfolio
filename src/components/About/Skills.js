@@ -75,6 +75,14 @@ export const Skills = () => {
                 <div className="item">
                   <img
                     className="text-animate-hover"
+                    src={meter2}
+                    alt="Image"
+                  />
+                  <h2>Ethereum Blockchain</h2>
+                </div>
+                <div className="item">
+                  <img
+                    className="text-animate-hover"
                     src={meter1}
                     alt="Image"
                   />
@@ -86,9 +94,7 @@ export const Skills = () => {
                     src={meter3}
                     alt="Image"
                   />
-                  <h2 style={{ paddingLeft: '0px' }}>
-                    SQL, MongoDB & CosmosDB
-                  </h2>
+                  <h2>SQL & NoSQL DBs</h2>
                 </div>
                 <div className="item">
                   <img
@@ -109,7 +115,7 @@ export const Skills = () => {
                 <div className="item">
                   <img
                     className="text-animate-hover"
-                    src={meter2}
+                    src={meter1}
                     alt="Image"
                   />
                   <h2 style={{ paddingLeft: '94px' }}>Git</h2>

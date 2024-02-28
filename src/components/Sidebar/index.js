@@ -81,7 +81,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/Abhinav9550"
+            href="https://dev.azure.com/abhinavmushthyala"
             target="_blank"
             rel="noreferrer"
           >
