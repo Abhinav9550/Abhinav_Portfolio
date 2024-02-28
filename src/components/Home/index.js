@@ -4,26 +4,32 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faContactCard } from '@fortawesome/free-solid-svg-icons'
 import {
   faDocker,
-  faStripe,
+  faBitcoin,
   faGitAlt,
   faAws,
   faJsSquare,
   faReact,
-  fa
 } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['','A','b', 'h', 'i', 'n', 'a', 'v']
+  const nameArray = ['', 'A', 'b', 'h', 'i', 'n', 'a', 'v']
   const jobArray = [
-    'w',
-    'e',
-    'b',
+    'F',
+    'u',
+    'l',
+    'l',
+    's',
+    't',
+    'a',
+    'c',
+    'k',
     ' ',
-    'd',
+    'D',
     'e',
     'v',
     'e',
@@ -38,7 +44,7 @@ const Home = () => {
   useEffect(() => {
     return setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
+    }, 3000)
   }, [])
 
   return (
@@ -60,12 +66,13 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={15}
             />
           </h1>
-          <h2>Full Stack Developer / Expert in developing APIs </h2>
+          <h2>( FullStack / Blockchain / Mobile ) Developer </h2>
           <Link to="/contact" className="flat-button">
-            CONTACT ME
+            Contact Me...
+            <FontAwesomeIcon icon={faContactCard} color="##ffd700" />
           </Link>
         </div>
         <div className="stage-cube-cont">
@@ -74,7 +81,7 @@ const Home = () => {
               <FontAwesomeIcon icon={faDocker} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faStripe} color="#F06529" />
+              <FontAwesomeIcon icon={faBitcoin} color="#F06529" />
             </div>
             <div className="face3">
               <FontAwesomeIcon icon={faAws} color="#28A4D9" />
